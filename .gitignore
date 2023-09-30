@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Tests
+CreativeCore_Animation_2022.3LTS
