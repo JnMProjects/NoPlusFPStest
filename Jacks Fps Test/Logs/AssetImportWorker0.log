@@ -1,0 +1,1865 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.3f1 (7cdc2969a641) revision 8182825'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'de' Physical Memory: 32759 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\git\unity\2022.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jackr/GITHUB/NOPLUS FPS/PreAlpha/Jacks Test/NPFPSptest/Jacks Fps Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62193
+Successfully changed project path to: C:/Users/jackr/GITHUB/NOPLUS FPS/PreAlpha/Jacks Test/NPFPSptest/Jacks Fps Test
+C:/Users/jackr/GITHUB/NOPLUS FPS/PreAlpha/Jacks Test/NPFPSptest/Jacks Fps Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31624] Host "[IP] 192.168.178.172 [Port] 0 [Flags] 2 [Guid] 179043018 [EditorId] 179043018 [Version] 1048832 [Id] WindowsEditor(7,Jacks-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31624] Host "[IP] 192.168.178.172 [Port] 0 [Flags] 2 [Guid] 179043018 [EditorId] 179043018 [Version] 1048832 [Id] WindowsEditor(7,Jacks-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 48.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.3f1 (7cdc2969a641)
+[Subsystems] Discovering subsystems at path D:/git/unity/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jackr/GITHUB/NOPLUS FPS/PreAlpha/Jacks Test/NPFPSptest/Jacks Fps Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   26.20.15029.27017
+Initialize mono
+Mono path[0] = 'D:/git/unity/2022.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/git/unity/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/git/unity/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/git/unity/2022.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/git/unity/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022385 seconds.
+- Loaded All Assemblies, in  0.859 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1505ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (291ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackr\GITHUB\NOPLUS FPS\PreAlpha\Jacks Test\NPFPSptest\Jacks Fps Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackr\GITHUB\NOPLUS FPS\PreAlpha\Jacks Test\NPFPSptest\Jacks Fps Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.927 seconds
+Refreshing native plugins compatible for Editor in 17.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.258 seconds
+Domain Reload Profiling: 3174ms
+	BeginReloadAssembly (366ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (1305ms)
+		LoadAssemblies (785ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (732ms)
+			TypeCache.Refresh (688ms)
+				TypeCache.ScanAssembly (657ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (911ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (687ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 18.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3464 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (57.3 KB). Loaded Objects now: 3935.
+Memory consumption went from 128.1 MB to 128.0 MB.
+Total: 6.207300 ms (FindLiveObjects: 0.579700 ms CreateObjectMapping: 0.244700 ms MarkObjects: 5.209300 ms  DeleteObjects: 0.171700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1439494.050105 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f76448f114ccc035fccad0c098adf9f') in 0.227426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 24.032228 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999273b79595e7777130067d61d009bd') in 0.026070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 6.067147 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aadecc823cb41736dd1019adfdd617') in 0.020601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 6.153038 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670868135e61fd965b773bec3afce763') in 0.022792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 6.032624 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2674e57b5982c9477783ab40a073fd91') in 0.024314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 6.831074 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd647e84104c9ff1bf877856aa77ad4ed') in 0.022838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 5.645049 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35198dafc544284fc0b125575e54780') in 0.022190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 7.276035 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d46b11774abf1446f43b2a7f786e9a') in 0.021556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 55.430387 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd112fa57ee1127dc3aa6cd842ea9df0c') in 0.024812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 18.300552 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c86467ce20241d1dcf1673bef0afbd') in 0.022763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 9.924948 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058cd321f2eaaa708ed8ed31cbae0398') in 0.024567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 9.516140 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22de9951d29e092c5f96bebb2dd6a2d') in 0.025291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 10.877735 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2e9bfc928a04074b85b9bafcf2901b') in 0.025209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 8.734918 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6450d4dba71f4efb484ebfa50529baa') in 0.021519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 6.386857 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff356934a730b71323dbdedfbab155b') in 0.022603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 2.789736 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c826e22dced936cd9c4a61cfda8b92aa') in 0.023077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 2.407577 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912952726c007f69f39fcff4c9a5a6f9') in 0.021979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 3.822835 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f8be6d2e24a15cd1554dc88b2e05c0') in 0.023363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 16.893282 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c153a30a5f01d1d2c4124edca72514d9') in 0.020270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 3.561303 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485b318a279a2d83c1402e92266ef175') in 0.021668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 1.963653 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a0dace2afbbe0b39a77b886d7acb15') in 0.023381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 75.330736 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bd47f73cfecf54e701bc951165ea45') in 0.024956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 5.680316 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7ce2cf96a19dc2cd72689abb1c2211') in 0.021576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 6.288997 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5c596fb818fdc5e34ba8da1787158') in 0.021894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 8.941627 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdf705a25cf0649630393e6bbbb2a2b') in 0.022788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 16.218424 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9690626eca4bf47679b147ddf0c58d87') in 0.023305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 27.888276 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3a9e4ba81008b11946f1c105e43734') in 0.024182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 2.688564 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ef05b50bafe24c9cccb3226b44c679') in 0.020156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 5.040519 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cf20a59311c787b12e454e21733dd7') in 0.021856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 5.838410 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95898d7c8f76c72b040cfea829809064') in 0.022607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 2.396710 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91022756fb8c5f59e66b121e8c9337f3') in 0.024649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 4.628235 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d003e786c5d68882fbde6e1d844c22') in 0.024940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 17.401316 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff34485686e5afac5af2424eae49bc8') in 0.022556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 5.621239 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7ab071436f0eac3db031221919a2aa') in 0.021334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 9.111292 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbcfae4a34857185983942b9a3d1917') in 0.021408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 7.776699 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab815f82c0562250351c568e68f10cf') in 0.023079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 10.464985 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b4364426c2f0f8cb8419872d606ac5') in 0.021908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 5.050808 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345896db8c71d68c68514cdb3669e673') in 0.024456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 3.871806 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4770242c266c8e0ed9d9033e2d4b59dc') in 0.023917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 6.465088 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505c504bcc4f50091d7f666a6c48e26b') in 0.021806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 3.402082 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e87631729a8bdf30716c18f9d2c27a') in 0.024117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 14.245187 seconds.
+  path: Assets/Materials/Doors/Keypad/Text.mat
+  artifactKey: Guid(6cf50b40e9c5c194586396fb63568f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/Text.mat using Guid(6cf50b40e9c5c194586396fb63568f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4b0009667c01d8f098b5013b25f7d0') in 0.066705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.468611 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8092a066006ce87e5bc43deb6590da6') in 0.024823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 6.910921 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2465ae03ddca50171eefe9abda823bd') in 0.023595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 1.161052 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e44b15c427b32ac8fb34216996b066') in 0.024083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 5.237870 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e330efd1a5d67690aceba16c91613a27') in 0.024202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 18.927602 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49fc58d6c11e050a7e49161da0d0bb3') in 0.024259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 3.188257 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a153f7d638d466502ad103ec4694a38f') in 0.024232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 4.168048 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860b0b2e6f09942dac82b51a8378ade4') in 0.028767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 6.234635 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2aba01cb46f93595597de8a6c10fe4') in 0.023828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 4.168849 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7870b48072e5b74e6b5a64f0d4b9e5ec') in 0.023846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 2.373849 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6e68defa733d2ae5afa8fbf3c86a3e') in 0.027054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 2.030825 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5085105d85e3352a94ef279f244f9c') in 0.025523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 6.727497 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e3eea00d3de22528aeec2a081a08c6') in 0.024398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 2.579485 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701e420d24ac91a453617be9c9d096f3') in 0.025786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 4.280689 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d1103222ed4535984be11006252d35') in 0.024059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 3.429640 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380fde716f67f56048e5cfd2115352d5') in 0.028534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 2.638066 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8720093a16ccfa448ae8f01bb1230c2f') in 0.031754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 1.102105 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0b821cf0b6ad385826171ae33b417f') in 0.027482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 7.884479 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcefe6500ff23cc65cff9fcddd1dc32') in 0.024598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 11.675238 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c083f2bec7ce6739e6406fa90e39ecaa') in 0.025618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 2.336183 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504513e7a51f05b3351ec68375c95f2') in 0.025843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 5.409680 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f4806d33bea4829855a13c9d783ffb') in 0.025596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 2.361506 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128a16d596f44c7eb99adcccef6a0564') in 0.027309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 1.561424 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edfc27df265fc951ecfe8d8e1fad9e1') in 0.026512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 2.617523 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498baa00c9fe3c5ecae4174435dde2f8') in 0.025704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 2.202005 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dd12e567c4a1c00cf951d59f8a1e5f') in 0.024406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 6.152772 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc7cbf1d1ecf72614bc8463509e9732') in 0.025848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 2.781105 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a77eac7b05fa23b5f78dab0cc22753c') in 0.026055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 3.979386 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f043b10be750c0c70aab1bcb2d64b2ec') in 0.030571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 6.638921 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ba4d26489ae8a6960e4afa6d461ace') in 0.025749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 5.813982 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad3c8d5a0e90ca4479015a9a15ed341') in 0.023859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 3.387304 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bcf5fcee7ed7ef3f26f5de121f3783') in 0.028374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 3.197191 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43547bc79ec7273b3da7c5c6902e6274') in 0.027304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 6.144337 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e6307a00de775b2ea5e3304480df9e') in 0.028321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackr\GITHUB\NOPLUS FPS\PreAlpha\Jacks Test\NPFPSptest\Jacks Fps Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackr\GITHUB\NOPLUS FPS\PreAlpha\Jacks Test\NPFPSptest\Jacks Fps Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.783 seconds
+Refreshing native plugins compatible for Editor in 22.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.591 seconds
+Domain Reload Profiling: 6366ms
+	BeginReloadAssembly (357ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1254ms)
+		LoadAssemblies (775ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (676ms)
+			TypeCache.Refresh (659ms)
+				TypeCache.ScanAssembly (630ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (4592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1061ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (782ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 19.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3980.
+Memory consumption went from 128.6 MB to 128.6 MB.
+Total: 7.426900 ms (FindLiveObjects: 0.708800 ms CreateObjectMapping: 0.302700 ms MarkObjects: 6.329800 ms  DeleteObjects: 0.083500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.357747 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f7304fc68380a472c3cdbaf96d394f') in 0.261622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 15.009981 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e783e395fde6cf7c6d3b496cf135f25') in 0.066051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 9.489317 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67481693d8088f77c616549c9f8bfb60') in 0.070177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 9.469780 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1f6b452a69e81b8e2a1b16ea236703') in 0.069421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 3.580654 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71024b8f3447eda907ed0c9a02e623cb') in 0.070773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 1.376742 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b593d95a9bfb726b74f4ea96476888') in 0.070341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 7.690851 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f56ab937b936b8e9961cb52a6bcb9b8') in 0.067440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 3.795881 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3fc8930eb65ab3afecbfd380a66a36') in 0.063552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 1.593617 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59d7d17f0b9a812e9b1e5b2dd16cab4') in 0.064611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 1.755192 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae43ae41da69a6ad8c6431c0e7426cf') in 0.068696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 5.025057 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a5190be16d9dc57c2eaaf6138b884f') in 0.075598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 5.186684 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb1e3ac4abd6e172a30616ea2f5c948') in 0.066882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 4.605090 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3905367153d2d4f944c4d0449510ff0') in 0.068315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 5.240348 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a5d3a57218e21567a701e938311c4f') in 0.077389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 10.040255 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebc7721e5032b40c6eee3b96bc74887') in 0.063166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 5.019325 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf69b4dbc1c803cddc93af6a4ad01a93') in 0.062399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 36.067524 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a672bade62d35467693001e9a04fff9') in 0.025973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 2.499291 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286dd6faa3c95a14f3e6f3a194927e1f') in 0.025399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 3.598393 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1439fcebbc1ce0eb8c3e52899dc10e') in 0.030707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 2.381397 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7578c3b1326d0d47911948fccdf45f34') in 0.027247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 2.194023 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b77ec117fa8e2729e22aa3ce97f0a2f') in 0.027813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 13.319099 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f849814780b454a915502db426359f') in 0.025387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 964.179189 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85b38594cc3b763f0b2041ef73b48fd') in 0.027783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 2.572070 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca72090c6a8f9303d02cd3021df30e') in 0.024773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 6.454921 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc02260f3187e78e4932c1191266947a') in 0.028942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 6.555076 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1778dd651114880f5ae29d2d59e753b4') in 0.026104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 5.654912 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c687fa7c71fd57d4c3db266845716e6c') in 0.025008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 5.050323 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe04673370a8b5f2e7702642322ac1a') in 0.027351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 4.605190 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84d0ec097b21594ca8476a7829a62df') in 0.028979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 17.664619 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51b9638c79d3eed965005d7199f4e24') in 0.027450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 4.643983 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f879b627067c43d8c1bc2cbc0b3ce2') in 0.028203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 2.378813 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4832b600b9271dc87f4eb328c4c361') in 0.025820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 9.068857 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a65adc64ee907e178558d8b2636b7f7') in 0.030402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 4.478053 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467fc75d9ec559fde69b0368c2142b24') in 0.028172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 3.417590 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd085363f27b4a1066734d47c871a9436') in 0.025714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 6.920067 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40af287b6bb4a4164b3c440373b53f99') in 0.029788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 2.064531 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe6aaad1381bd3bbf6950d7c426cfc8') in 0.025119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 170
+========================================================================
+Received Import Request.
+  Time since last request: 2.586667 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67662230fa130c22b9e651adc8e8ec9') in 0.024771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 170
+========================================================================
+Received Import Request.
+  Time since last request: 5.658819 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40beea279fcf2ab0d5d3a4e097b6398') in 0.025509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Import Request.
+  Time since last request: 2.436596 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce7f7297a5c9eb02c8298f00963adee') in 0.025815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Import Request.
+  Time since last request: 2.617333 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917ca17de397d628c1b1b265fb307ae9') in 0.028390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Import Request.
+  Time since last request: 4.027839 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed3ddb85dfa646bfa123cf01dcb64d1') in 0.029344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Import Request.
+  Time since last request: 8.361453 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c00848ab7c8a6d107bce3706658aa5b') in 0.026292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 3.184407 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f220b95186cbaa48203491738f226c85') in 0.025959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 5.773627 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fd935dfc0c46264e1c5458afd2a097') in 0.027563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 190
+========================================================================
+Received Import Request.
+  Time since last request: 2.912722 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e1c131067eac870364673f84f59f1d') in 0.028901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 190
+========================================================================
+Received Import Request.
+  Time since last request: 3.414733 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a7fb50ef9c32d66af1447809912eb9') in 0.027113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 190
+========================================================================
+Received Import Request.
+  Time since last request: 3.316768 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fedfa002643c3a760296519ecca19c1') in 0.028282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 190
+========================================================================
+Received Import Request.
+  Time since last request: 10.217447 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7203595ce92f7f5822ad12317621517e') in 0.027283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 2.835340 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2351b8625ec6f34b8434be843e047e8') in 0.029082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 5.069279 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc74f00e6fccc9b61c7b80198ad016b') in 0.026872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 11.905280 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b492aa8c4a7034a05b1f5ea44353e51a') in 0.026238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 4.701543 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be9c5a80fc2a89d104d482a0d0e3a09') in 0.025178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 2.847356 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c3c72936520ae6efb4c40bed029b2') in 0.025743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 17.919804 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510a29cd8d0c58636d8886fef22f6547') in 0.027933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 2.737725 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ecb6670724c6f267e82496518f4a7f') in 0.032035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 4.805497 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78be581d3be08bf19bfd24c065246e68') in 0.030483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 3.410099 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9ce851dcd34ffe3abb815c6128d440') in 0.027640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 4.027969 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72296de23657466d2c99134fccf1ba97') in 0.027125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 9.282666 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63182b9cc5e9059ed32c07a5f2b5dbd8') in 0.032449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 6.862952 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727df2ad851793bc599a7c1030cfa194') in 0.026852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 5.255889 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd8cc326f4f4daa8eff9904b617be77') in 0.032408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 5.458571 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763a4009946c485a616b780e313b19d') in 0.028050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 3.590414 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9510c21d2f44bfc1a7534176388acfb0') in 0.028547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 3.809308 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1825e3f39e4008916612bc7a5064aa8') in 0.027242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 3.712364 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f96b89a0b6bf38561370e914530accd') in 0.030879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 245
+========================================================================
+Received Import Request.
+  Time since last request: 2.384045 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ddb1e6f35a18073fb3a2dce2cc43f9') in 0.028569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 245
+========================================================================
+Received Import Request.
+  Time since last request: 26.078434 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b9e190e9a106f2a1fb83791cf81bd6') in 0.029073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 2.832272 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e2e97dc07b90bc1fba492e8411da01') in 0.028368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 5.455546 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67141df5fe7b3f3c633bdf1e1ea65ada') in 0.028218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 18.009168 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7058516b80977e39e89b37f2b9d16d3') in 0.030466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 1.386024 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12346fbc39819e2053e6ae26895c166a') in 0.028182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 1.607709 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4166d4e39f807cbfac1e7c061336fb2a') in 0.032949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 2.621981 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05976270ae5f5d85e614a74a8ee24ad3') in 0.029220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 1.794190 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3177a7c29f835df3cd17845c421ff67') in 0.028701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 13.412251 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b1fe92677093b5027787f0e9199cda') in 0.029730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 4.897342 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8521e181892604fa2a74b81c2afa2596') in 0.027092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 1.406491 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b50552c80bc620e6ac0145141a7f78') in 0.028912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 3.627545 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c28424e6a44daea8b172294870989') in 0.028892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 275
+========================================================================
+Received Import Request.
+  Time since last request: 23.190543 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b7bf11b7975473258705197167ca71') in 0.028233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 3.046281 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cb5dd589350ed9ac32ddff0870d518') in 0.030129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 6.286576 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af261a1d31bef1bd8ca172e9cf7204bb') in 0.028340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 19.002250 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ff6dba55da7329de0e1c6bae7d9026') in 0.033354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 3.028580 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2979a32bd514948a66cfc7eb0d262b') in 0.033284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 1.189136 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c788ee0914c09dc71ffbd35a837c5739') in 0.030002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 3.641116 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4894b0f16143fb2c322f5781248f4047') in 0.029749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 3.410859 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5713791fb92fb8d1824bcc5f9cbde04c') in 0.027715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 4.457571 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61beeeb676c93c6f829b9d5030a3a5b0') in 0.033958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 1.423493 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9622804d2b3705d103d0390ef3da4d') in 0.028698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 5.064209 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b30949e5a8f5228b3131aa4a0e1a161') in 0.029341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 1.809474 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6823b848a72933d5358d6460c3bd120f') in 0.033763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 2.599569 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6ba12ebfa9cb3854555973ae3c1a16') in 0.029738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 1.383913 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2cd210d33d37d6d6f0b7f917e5419b') in 0.032395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 300
+========================================================================
+Received Import Request.
+  Time since last request: 12.491195 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531363940b0854e6a28b29b00774e927') in 0.030261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 4.409181 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f900ede53ce1bb2d0799f880404af8cb') in 0.030442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 4.014120 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c587ff774dad53d105a47bb6191265ea') in 0.030168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 2.413113 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62781d472d7ae4c5557b6e5a2b00fee') in 0.029342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 3.871426 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f8d5d0eec06748570fb4d16e8e77b7') in 0.036114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 7.464778 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de926dcc5f280404c2149374306dd2a1') in 0.032861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.608021 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba80306b6c824502100726dd6c76e2') in 0.028621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 0.998471 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8feeb9142f57964698db1e146bd9d33') in 0.033351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 0.985579 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1255600a25a8db737c598e6eb732acb2') in 0.029414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.804264 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaae4d8e9922009e1aa8a6a22e2982a') in 0.031084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 7.052304 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd91a8ad75e0c78231d406b3bc23691') in 0.036395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 12.441503 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae46a088e5e0d0ef19bf7cd3fa6b8833') in 0.036344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 10.447795 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f1f254f3e9a46cc7dcdd9ab9eea44b') in 0.031119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 22.488648 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6a7b1c13a483c0a9a8252042d00b3d') in 0.029795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 8.452573 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3394eff7c45e99bbdfe8fc2d7ab50eb1') in 0.030644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 8.252726 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56f986992dd18d193ff04d7a54cc761') in 0.030373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 6.036799 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e3dfa0ef965758a47507af134eebc5') in 0.027616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 10.478269 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54aca55a35d2663a6dacf2059b80fd4') in 0.028775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 5.428649 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386723804c4fe73097f97f03a49ce762') in 0.030351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 6.838688 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f597616b32e1de13a868d77bf073a81c') in 0.034395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 13.281486 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfdf2da3e2b19c1ec18666bebc26489') in 0.032471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 1.370492 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ea31f1ad0838216f5b396d6c7cf92c') in 0.028944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 2.392155 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe55a3ff447deb66e06f58e6e38e260') in 0.031142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 13.500767 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dcba9ae4e7053e04c1638b07898fc1') in 0.031550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 24.352072 seconds.
+  path: Assets/Materials/Doors/Keypad/Text.mat
+  artifactKey: Guid(6cf50b40e9c5c194586396fb63568f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/Text.mat using Guid(6cf50b40e9c5c194586396fb63568f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc63504f054613392ea179647312d1c') in 0.039259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.588142 seconds.
+  path: Assets/Materials/Doors/Keypad/accept.mat
+  artifactKey: Guid(7e61b3cf27acb0f4bb6666ac3a6572f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/accept.mat using Guid(7e61b3cf27acb0f4bb6666ac3a6572f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb04e2b30bf7b679d60f9cacdf04643') in 0.024655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 63.066086 seconds.
+  path: Assets/Materials/Doors/Keypad/deny.mat
+  artifactKey: Guid(33a49df84253e734c8ee37591e6654b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/deny.mat using Guid(33a49df84253e734c8ee37591e6654b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8e53e06e2663b9379e3d2cdc8a5ec2') in 0.015502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.199024 seconds.
+  path: Assets/Materials/Doors/Keypad/displaytext.mat
+  artifactKey: Guid(87026bc3468a50746915a33f79696d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/displaytext.mat using Guid(87026bc3468a50746915a33f79696d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c084f2759c8f0544a5c033002dee1d8a') in 0.016460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 612.897986 seconds.
+  path: Assets/Materials/Doors/Keypad/accept.mat
+  artifactKey: Guid(7e61b3cf27acb0f4bb6666ac3a6572f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/accept.mat using Guid(7e61b3cf27acb0f4bb6666ac3a6572f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7157355f41199407a32ec788e8059691') in 0.019159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/Doors/Keypad/displaytext.mat
+  artifactKey: Guid(87026bc3468a50746915a33f79696d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/displaytext.mat using Guid(87026bc3468a50746915a33f79696d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229af2cd62cfbc8201a541c035147c1f') in 0.020199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Doors/Keypad/Text.mat
+  artifactKey: Guid(6cf50b40e9c5c194586396fb63568f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Doors/Keypad/Text.mat using Guid(6cf50b40e9c5c194586396fb63568f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d59b094a8c7e755d62c9a1dfd153caf') in 0.016139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.133504 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf8bf69951a789717ac42c064d0738a') in 0.035978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 7.251205 seconds.
+  path: Assets/Prefabs/Keypad.prefab
+  artifactKey: Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Keypad.prefab using Guid(b4540a3660dd2234494cd83eed76f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7e2bd932b580307cd9df606b2512f9') in 0.036284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 329
+========================================================================
+Received Import Request.
+  Time since last request: 336.171204 seconds.
+  path: Assets/Animations/Doors/R1toR2/Doors.controller
+  artifactKey: Guid(6320e36d939c6dd45857ce68adbb7c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Doors/R1toR2/Doors.controller using Guid(6320e36d939c6dd45857ce68adbb7c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8a947a95e0f92a415a3d0077f88b89') in 0.010451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 27.930096 seconds.
+  path: Assets/Animations/Keypad/Keypad.controller
+  artifactKey: Guid(750551696719bc6499e0acb13d0bcacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Keypad/Keypad.controller using Guid(750551696719bc6499e0acb13d0bcacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb3fd5b22913534d3e53dd1e692039c') in 0.003215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
