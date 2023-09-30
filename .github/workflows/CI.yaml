@@ -11,30 +11,9 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
-
-    - name: Set up Unity
-      uses: webbertakken/unity-actions@v2
-      with:
-        unityVersion: 2022.3.3f1
-        modules: 'unity'
-        license: ${{ secrets.UNITY_LICENSE }}
-
-    - name: Build Unity Project
-      run: |
-        unity -quit -batchmode -projectPath ./YourUnityProjectPath -executeMethod BuildScript.Build
-
-    - name: Run Tests (if applicable)
-      run: |
-        # Add commands to run tests here
-
-    - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: Build
-        path: ./YourUnityProjectPath/Build
-
-    - name: Deploy (if applicable)
-      run: |
-        # Add commands to deploy the build
-
+    - uses: game-ci/unity-test-runner@v3
+    env:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+    with:
+      projectPath: Jacks Fps Test/
+      githubToken: ${{ secrets.GITHUB_TOKEN }}
