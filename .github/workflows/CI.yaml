@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Unity
+      uses: game-ci/setup-unity@v1
+      with:
+        unityVersion: 2022.3.3f1
+        modules: 'unity'
+        license: ${{ secrets.UNITY_LICENSE }}
+
+    - name: Build Unity Project
+      run: |
+        unity -quit -batchmode -projectPath ./YourUnityProjectPath -executeMethod BuildScript.Build
+
+    - name: Run Tests (if applicable)
+      run: |
+        # Add commands to run tests here
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Build
+        path: ./YourUnityProjectPath/Build
+
+    - name: Deploy (if applicable)
+      run: |
+        # Add commands to deploy the build
+
