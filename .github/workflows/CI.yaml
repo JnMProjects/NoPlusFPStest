@@ -1,4 +1,6 @@
-on: [push, pull_request]
+name: Automatic CI - Test - Build - Deploy
+
+on: pull_request
 
 jobs:
   build:
@@ -13,6 +15,58 @@ jobs:
       projectPath: Jacks Fps Test/
       githubToken: ${{ secrets.GITHUB_TOKEN }}
 
+  testRunner:
+    name: Test in ${{ matrix.testMode }} ✨
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        testMode:
+          - EditMode
+          - PlayMode
+    steps:
+      - name: Checkout code ✅
+        uses: actions/checkout@v2
+
+      - name: Create LFS file list 📜
+        run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+      - name: Restore LFS cache 🔄
+        uses: actions/cache@v2
+        id: lfs-cache
+        with:
+          path: .git/lfs
+          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+
+      - name: Git LFS Pull 📥
+        run: |
+          git lfs pull
+          git add .
+          git reset --hard
+      - name: Restore Library cache 🔄
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-test-project-${{ matrix.targetPlatform }}
+          restore-keys: |
+            Library-test-project-
+            Library-
+      - name: Run tests ⏯ 📑
+        uses: game-ci/unity-test-runner@v2
+        id: testRunner
+        with:
+          testMode: ${{ matrix.testMode }}
+          checkName: ${{ matrix.testMode }} test results
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          projectPath: Jacks Fps Test/
+
+      - name: Upload Artifact 📦
+        uses: actions/upload-artifact@v2
+        with:
+          name: Test results (${{ matrix.testMode }})
+          path: ${{ steps.testRunner.outputs.artifactsPath }}
+
+
   buildWebGL:
     needs: testRunner
     name: Build for WebGL 🖥️
@@ -20,26 +74,26 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - name: Checkout code
+      - name: Checkout code ✅
         uses: actions/checkout@v2
 
-      - name: Create LFS file list
+      - name: Create LFS file list 📝
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
 
-      - name: Restore LFS cache
+      - name: Restore LFS cache 📦
         uses: actions/cache@v2
         id: lfs-cache
         with:
           path: .git/lfs
           key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
 
-      - name: Git LFS Pull
+      - name: Git LFS Pull 📥
         run: |
           git lfs pull
           git add .
           git reset --hard
 
-      - name: Restore Library cache
+      - name: Restore Library cache 📦
         uses: actions/cache@v2
         with:
           path: Library
@@ -48,11 +102,13 @@ jobs:
             Library-build-
             Library-
 
-      - uses: game-ci/unity-builder@v2
+      - name: Build for WebGL 🖥️
+        uses: game-ci/unity-builder@v2
         with:
           targetPlatform: WebGL
 
-      - uses: actions/upload-artifact@v2
+      - name: Upload Artifact 📦
+        uses: actions/upload-artifact@v2
         with:
           name: build-WebGL
           path: build/WebGL
@@ -64,26 +120,26 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - name: Checkout code
+      - name: Checkout code ✅
         uses: actions/checkout@v2
 
-      - name: Create LFS file list
+      - name: Create LFS file list 📝
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
 
-      - name: Restore LFS cache
+      - name: Restore LFS cache 📦
         uses: actions/cache@v2
         id: lfs-cache
         with:
           path: .git/lfs
           key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
 
-      - name: Git LFS Pull
+      - name: Git LFS Pull 📥
         run: |
           git lfs pull
           git add .
           git reset --hard
 
-      - name: Restore Library cache
+      - name: Restore Library cache 📦
         uses: actions/cache@v2
         with:
           path: Library
@@ -92,7 +148,8 @@ jobs:
             Library-build-
             Library-
 
-      - uses: game-ci/unity-builder@v2
+      - name: Build for Windows 🖥️
+        uses: game-ci/unity-builder@v2 
         with:
           targetPlatform: StandaloneWindows64
 
@@ -106,15 +163,11 @@ jobs:
     name: Deploy to Github Pages 🚀
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout code ✅
         uses: actions/checkout@v2
 
-      - uses: actions/download-artifact@v2
+      - name: Download Artifact 📦
+        uses: actions/download-artifact@v2
         with:
           name: build-WebGL
           path: docs/WebGL
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: main
-          folder: docs/WebGL
