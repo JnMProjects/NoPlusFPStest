@@ -22,15 +22,15 @@ jobs:
           - EditMode
           - PlayMode
     steps:
-      - name: Check Docker version
+      - name: Check Docker version 🐳
         run: docker --version
 
-      - name: Update Docker
+      - name: Update Docker 🐳
         run: |
           sudo apt update
           sudo apt upgrade docker.io
 
-      - name: Check Docker permissions
+      - name: Check Docker permissions 🐳
         run: docker ps
       - name: Checkout code ✅
         uses: actions/checkout@v2
@@ -82,15 +82,15 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - name: Check Docker version
+      - name: Check Docker version 🐳
         run: docker --version
 
-      - name: Update Docker
+      - name: Update Docker 🐳
         run: |
           sudo apt update
           sudo apt upgrade docker.io
 
-      - name: Check Docker permissions
+      - name: Check Docker permissions 🐳
         run: docker ps
       - name: Checkout code ✅
         uses: actions/checkout@v2
@@ -139,10 +139,10 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - name: Check Docker version
+      - name: Check Docker version 🐳
         run: docker --version
 
-      - name: Update Docker
+      - name: Update Docker 🐳
         run: |
           sudo apt update
           sudo apt upgrade docker.io
