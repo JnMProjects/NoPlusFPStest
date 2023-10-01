@@ -1,4 +1,4 @@
-name: Automatic CI - Test - Build - Deploy
+name: Automatic CI
 
 on:
   push:
@@ -165,15 +165,15 @@ jobs:
           path: build/StandaloneWindows64
 
     deployPages:
-    needs: buildWGL
-    name: Deploy to Github Pages 🚀
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code ✅
-        uses: actions/checkout@v2
+      needs: buildWGL
+      name: Deploy to Github Pages 🚀
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code ✅
+          uses: actions/checkout@v2
 
-      - name: Download Artifact 📦
-        uses: actions/download-artifact@v2
-        with:
-          name: build-WebGL
-          path: docs/WebGL
+        - name: Download Artifact 📦
+          uses: actions/download-artifact@v2
+          with:
+            name: build-WebGL
+            path: docs/WebGL
