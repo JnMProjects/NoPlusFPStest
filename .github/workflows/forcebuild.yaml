@@ -45,6 +45,7 @@ jobs:
         uses: game-ci/unity-builder@v2
         with:
           targetPlatform: WebGL
+          projectPath: ${{ vars.projectPath }}
 
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v2
@@ -90,6 +91,7 @@ jobs:
         uses: game-ci/unity-builder@v2 
         with:
           targetPlatform: StandaloneWindows64
+          projectPath: ${{ vars.projectPath }}
 
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v2

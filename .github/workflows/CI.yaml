@@ -54,7 +54,7 @@ jobs:
           testMode: ${{ matrix.testMode }}
           checkName: ${{ matrix.testMode }} test results
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectPath: Jacks Fps Test/
+          projectPath: ${{ vars.projectPath }}
 
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v2
@@ -102,6 +102,7 @@ jobs:
         uses: game-ci/unity-builder@v2
         with:
           targetPlatform: WebGL
+          projectPath: ${{ vars.projectPath }}
 
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v2
@@ -148,6 +149,7 @@ jobs:
         uses: game-ci/unity-builder@v2 
         with:
           targetPlatform: StandaloneWindows64
+          projectPath: ${{ vars.projectPath }}
 
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v2
