@@ -1,5 +1,8 @@
 name: Automatic CI
 
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
 on:
   push:
     branches:
@@ -8,18 +11,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Repository
-      uses: game-ci/unity-test-runner@v3
-    env:
-      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-    with:
-      projectPath: Jacks Fps Test/
-      githubToken: ${{ secrets.GITHUB_TOKEN }}
-
   testRunner:
     name: Test in ${{ matrix.testMode }} ✨
     runs-on: ubuntu-latest
@@ -164,16 +155,16 @@ jobs:
           name: build-StandaloneWindows64
           path: build/StandaloneWindows64
 
-    deployPages:
-      needs: buildWGL
-      name: Deploy to Github Pages 🚀
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout code ✅
-          uses: actions/checkout@v2
+  deployPages:
+    needs: buildWGL
+    name: Deploy to Github Pages 🚀
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code ✅
+        uses: actions/checkout@v2
 
-        - name: Download Artifact 📦
-          uses: actions/download-artifact@v2
-          with:
-            name: build-WebGL
-            path: docs/WebGL
+      - name: Download Artifact 📦
+        uses: actions/download-artifact@v2
+        with:
+          name: build-WebGL
+          path: docs/WebGL
