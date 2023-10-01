@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Checkout Repository
-    - uses: game-ci/unity-test-runner@v3
+      uses: game-ci/unity-test-runner@v3
     env:
       UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
     with:
@@ -67,7 +67,7 @@ jobs:
           path: ${{ steps.testRunner.outputs.artifactsPath }}
 
 
-  buildWebGL:
+  buildWGL:
     needs: testRunner
     name: Build for WebGL 🖥️
     runs-on: ubuntu-latest
@@ -153,13 +153,14 @@ jobs:
         with:
           targetPlatform: StandaloneWindows64
 
-      - uses: actions/upload-artifact@v2
+      - name: Upload Artifact 📦
+        uses: actions/upload-artifact@v2
         with:
           name: build-StandaloneWindows64
           path: build/StandaloneWindows64
 
     deployPages:
-    needs: buildWebGL
+    needs: buildWGL
     name: Deploy to Github Pages 🚀
     runs-on: ubuntu-latest
     steps:
