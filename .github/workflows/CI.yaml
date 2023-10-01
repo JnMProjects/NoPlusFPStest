@@ -67,7 +67,7 @@ jobs:
           path: ${{ steps.testRunner.outputs.artifactsPath }}
 
 
-  buildWebGL:
+  buildWGL:
     needs: testRunner
     name: Build for WebGL 🖥️
     runs-on: ubuntu-latest
@@ -160,7 +160,7 @@ jobs:
           path: build/StandaloneWindows64
 
     deployPages:
-    needs: buildWebGL
+    needs: buildWGL
     name: Deploy to Github Pages 🚀
     runs-on: ubuntu-latest
     steps:
