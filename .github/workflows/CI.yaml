@@ -1,12 +1,9 @@
-name: Automatic CI
+name: Automatic CI 🤖
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
   workflow_dispatch:
 
@@ -59,5 +56,5 @@ jobs:
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v3
         with:
-          name: Test results (${{ matrix.testMode }})
+          name: Test results (${{ matrix.testMode }}) 📑
           path: ${{ steps.testRunner.outputs.artifactsPath }}
