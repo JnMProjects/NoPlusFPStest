@@ -52,6 +52,7 @@ jobs:
           checkName: ${{ matrix.testMode }} test results
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           projectPath: ${{ vars.projectPath }}
+          customParameters: '-nographics'
 
       - name: Upload Artifact 📦
         uses: actions/upload-artifact@v3
