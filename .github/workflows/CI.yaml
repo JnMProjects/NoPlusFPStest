@@ -1,9 +1,14 @@
-name: GameCI Template 🎮
-
-on: push
+name: Automatic CI
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   testRunner:
@@ -17,43 +22,42 @@ jobs:
           - PlayMode
     steps:
       - name: Checkout code ✅
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Create LFS file list 📜
         run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
 
       - name: Restore LFS cache 🔄
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: lfs-cache
         with:
           path: .git/lfs
           key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
 
-      - name: Git LFS Pull ⬇
+      - name: Git LFS Pull 📥
         run: |
           git lfs pull
           git add .
           git reset --hard
-
       - name: Restore Library cache 🔄
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: Library
           key: Library-test-project-${{ matrix.targetPlatform }}
           restore-keys: |
             Library-test-project-
             Library-
-
       - name: Run tests ⏯ 📑
-        uses: game-ci/unity-test-runner@v2
+        uses: game-ci/unity-test-runner@v3.1.0
         id: testRunner
         with:
           testMode: ${{ matrix.testMode }}
           checkName: ${{ matrix.testMode }} test results
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectPath: Jacks Fps Test/
+          projectPath: ${{ vars.projectPath }}
 
-      - uses: actions/upload-artifact@v2
+      - name: Upload Artifact 📦
+        uses: actions/upload-artifact@v3
         with:
           name: Test results (${{ matrix.testMode }})
           path: ${{ steps.testRunner.outputs.artifactsPath }}
