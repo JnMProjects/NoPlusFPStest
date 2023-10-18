@@ -44,18 +44,20 @@ jobs:
           restore-keys: |
             Library-test-project-
             Library-
-      - name: Run tests ⏯ 📑
-        uses: game-ci/unity-test-runner@v3.1.0
-        id: testRunner
+            
+      - name: Run ${{ matrix.testMode }} Tests ⏯ 📑
+        id: runningTest
+        uses: game-ci/unity-test-runner@v2.0-alpha-5
         with:
+          projectPath: ${{ vars.projectPath }}
           testMode: ${{ matrix.testMode }}
           checkName: ${{ matrix.testMode }} test results
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectPath: ${{ vars.projectPath }}
-          customParameters: '-nographics'
 
+      # Upload artifacts
       - name: Upload Artifact 📦
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: Test results (${{ matrix.testMode }}) 📑
-          path: ${{ steps.testRunner.outputs.artifactsPath }}        
+          path: ${{ steps.runningTest.outputs.artifactsPath }}
+          
