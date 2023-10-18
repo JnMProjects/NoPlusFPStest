@@ -123,25 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &107973058 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4666198262909745091, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &107973063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107973058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1001 &139933314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -297,25 +278,6 @@ Transform:
   m_Father: {fileID: 1341360826}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &161132837 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7449181757454096814, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &161132842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161132837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &188404202
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,44 +549,6 @@ Transform:
   m_Father: {fileID: 1651422137}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &475195306 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5364248342579491449, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &475195311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475195306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
---- !u!1 &580833131 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2407684530842892196, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &580833136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580833131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!20 &640346057 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5735026759029016731, guid: 0cf874213790e2741ab5ca9e4034db45, type: 3}
@@ -735,25 +659,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701692847}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &730143624 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1456798140783637498, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &730143629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730143624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &734391902
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,25 +840,6 @@ Transform:
   m_Father: {fileID: 1341360826}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &789720638 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4758769183666875951, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &789720643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789720638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &843309766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,67 +1164,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4902201331910287467, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1387249361}
-    - targetCorrespondingSourceObject: {fileID: 1456798140783637498, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 730143629}
-    - targetCorrespondingSourceObject: {fileID: 7449181757454096814, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 161132842}
-    - targetCorrespondingSourceObject: {fileID: 4666198262909745091, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 107973063}
-    - targetCorrespondingSourceObject: {fileID: 4047955693214766580, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1456797294}
-    - targetCorrespondingSourceObject: {fileID: 4012563100733780716, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1745442445}
-    - targetCorrespondingSourceObject: {fileID: 3700978991911953920, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1676509933}
-    - targetCorrespondingSourceObject: {fileID: 3212586835171816871, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 937223924}
-    - targetCorrespondingSourceObject: {fileID: 4758769183666875951, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 789720643}
-    - targetCorrespondingSourceObject: {fileID: 5364248342579491449, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 475195311}
-    - targetCorrespondingSourceObject: {fileID: 2407684530842892196, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 580833136}
-    - targetCorrespondingSourceObject: {fileID: 8660210422126872412, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1183570861}
-    - targetCorrespondingSourceObject: {fileID: 5504323328178744724, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1199473068}
   m_SourcePrefab: {fileID: 100100000, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
 --- !u!4 &867229343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5434453082607078980, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
   m_PrefabInstance: {fileID: 867229340}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &937223919 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3212586835171816871, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &937223924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937223919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &1060282235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1283037624518172793, guid: 0cf874213790e2741ab5ca9e4034db45, type: 3}
@@ -1520,44 +1351,6 @@ Transform:
   m_Father: {fileID: 1651422137}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1183570856 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8660210422126872412, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1183570861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183570856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
---- !u!1 &1199473063 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5504323328178744724, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1199473068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199473063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &1214587783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,25 +1739,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3626794655800981667, guid: 152deff354d9cfe458cf5d78190ab718, type: 3}
   m_PrefabInstance: {fileID: 139933314}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1456797289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4047955693214766580, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1456797294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456797289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &1484141855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2055,25 +1829,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1676509928 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3700978991911953920, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1676509933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676509928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!1 &1712418184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,25 +1934,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712418184}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1745442440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4012563100733780716, guid: b4540a3660dd2234494cd83eed76f0bf, type: 3}
-  m_PrefabInstance: {fileID: 867229340}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1745442445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745442440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5da4d384f3edbb42961545fed02c467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  promptMessage: Use Keypad
-  Door: {fileID: 1484141855}
 --- !u!4 &1803661331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3626794655800981667, guid: 152deff354d9cfe458cf5d78190ab718, type: 3}
