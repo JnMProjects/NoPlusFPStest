@@ -10,6 +10,7 @@ jobs:
   testRunner:
     name: Test in ${{ matrix.testMode }} ✨
     runs-on: ubuntu-latest
+    permissions: write-all
     strategy:
       fail-fast: false
       matrix:
@@ -62,6 +63,7 @@ jobs:
     name: Build for WebGL 🖥️
     needs: testRunner
     runs-on: ubuntu-latest
+    permissions: write-all
     strategy:
       fail-fast: false
     steps:
@@ -109,6 +111,7 @@ jobs:
     needs: buildWGL
     name: Deploy to Github Pages 🚀
     runs-on: ubuntu-latest
+    permissions: read-all
     steps:
       - name: Checkout code ✅
         uses: actions/checkout@v4
@@ -129,6 +132,7 @@ jobs:
     name: Build for Windows 🖥️
     needs: testRunner
     runs-on: ubuntu-latest
+    permissions: write-all
     strategy:
       fail-fast: false
     steps:
